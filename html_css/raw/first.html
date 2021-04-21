@@ -3,17 +3,32 @@
 
 <head>
     <!-- Seo -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal styling -->
+    <!-- <style>
+        body{
+            background-color: red;
+        }
+    </style> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- headings -->
     <!-- h1+h2+h3+h4+h5+h6 -->
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
+    <!-- Block level elemets = they take full width and next element will appear in next line -->
+    <h1 class="heading">Hello World</h1>
+    <h2 class="heading">Hello World</h2>
+    <h3 class="heading">Hello World</h3>
+    <h4 class="heading">Hello World</h4>
+    <h5 class="heading">Hello World</h5>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, nisi.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, nisi.</p>
+    <!-- inline styling -->
+    <p>Lorem ipsum <span style="color: red;">dolor</span>, sit amet consectetur adipisicing elit. Neque, nisi.</p>
     <!-- structure paragraph shift+alt+f -->
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus corporis commodi dolorem ad necessitatibus
         perspiciatis voluptates aspernatur, cumque a quaerat aut officia alias vel eos autem incidunt facilis non
@@ -22,27 +37,33 @@
         veritatis eum voluptatum commodi sapiente repudiandae a quae minima obcaecati maiores velit laborum earum at
         provident numquam cupiditate officiis quod beatae, aliquam dignissimos. Nam dolores quae earum minima, labore
         ipsum vel laudantium totam commodi iusto ullam, possimus explicabo asperiores ad sunt placeat.</p>
+    <!-- inline elements = thye only take required elements -->
     <!-- anchor tag -->
-    <a href="www.google.com">Go to Google</a></br>
+    <a href="www.google.com">Go to Google</a>
 
     <!-- images -->
     <img src="../img/ab.jpg" alt="Not found ">
-    <!-- Unordered lisr -->
-    <!-- ul>li*4 -->
-    <ul>
-        <li>I am a list item</li>
-        <li>I am a list item</li>
-        <li>I am a list item</li>
-        <li>I am a list item</li>
-    </ul>
 
-    <!-- ordered list -->
-    <!-- ol>li*3 -->
-    <ol>
-        <li>no1</li>
-        <li>no2</li>
-        <li>no3</li>
-    </ol>
+    <div>
+        <!-- Unordered lisr -->
+        <!-- ul>li*4 -->
+        <ul>
+            <li>I am a list item</li>
+            <li>I am a list item</li>
+            <li>I am a list item</li>
+            <li>I am a list item</li>
+        </ul>
+
+        <!-- ordered list -->
+        <!-- ol>li*3 -->
+        <ol>
+            <li>no1</li>
+            <li>no2</li>
+            <li>no3</li>
+        </ol>
+    </div>
+
+
 </body>
 
 </html>
